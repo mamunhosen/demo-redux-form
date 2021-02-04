@@ -1,0 +1,7 @@
+export const types = {
+  INCREMENT: "INCREMENT",
+  DECREMENT: "DECREMENT",
+  REQUESTED: "REQUESTED",
+  SUCCESS: "SUCCESS",
+  FAILED: "FAILED",
+};

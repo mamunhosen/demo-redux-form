@@ -1,0 +1,12 @@
+.input-group {
+  padding: 10px;
+}
+.error {
+  background-color: brown;
+  color: #fff;
+}
+
+.active {
+  background-color: rgb(245, 245, 111);
+  color: #fff;
+}
