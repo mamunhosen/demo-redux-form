@@ -5,6 +5,7 @@ import { fetchDataSuccess, fetchDataFailure } from "../actions";
 
 function* asyncFetchRequest(action) {
   try {
+    // call api
     const url = `https://reqres.in/api/users/${action.payload}`;
     const response = yield call(() => axios.get(url));
     yield put(fetchDataSuccess(response.data.data));
